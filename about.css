@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Koulen&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Koulen', sans-serif;
+}
+.container{
+    background-image: linear-gradient(135deg,#064375,#8F39CE);
+    width: 100%;
+    height: 100vh;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 60px;
+}
+.header img{
+width: 200px;
+}
+.header .links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header .links a{
+    margin: 0 60px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+.header .links a:hover{
+    color: #8F39CE;
+}
+.header .signup button{
+    position: relative;
+    background-color: #491b89;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 50px;
+    padding: 7px 20px;
+    letter-spacing: 2px;
+    transition: all ease 0.3s;
+}
+.header .signup button a{
+    text-decoration: none;
+    color:#8F39CE ;
+
+}
+.signup button:hover{
+    color: rgb(216, 211, 235);
+    transform: scale(1.1);
+}
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 120px;
+}
+.left{
+    width: 50%;
+}
+.left h6{
+    font-weight: 200;
+    color: orangered;
+    letter-spacing: 2px;
+
+}
+.left h2{
+
+    width: 60%;
+    font-size: 50px;
+    color: #ffff;
+    letter-spacing: 2px;
+    font-weight: 200;
+}
+.left p{
+    margin-top: 80px;
+    color: rgba(255, 255, 255, 0.808);
+    width: 60%;
+    font-family: "barlow";
+    font-size: 12px;
+    line-height: 20px;
+}
+.right img{
+    width: 500px;
+    border-radius: 10px;
+    transition: all ease 0.3s;
+}
+.right img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.counts {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(200px, 1fr) );
+    gap: 1.5rem;
+    align-self: center;
+    justify-items: center;
+    padding: 70px 0;
+}
+.counts .count{
+    color: white;
+    text-align: left;
+}
+.counts .count p:first-child{
+    font-size: 35px;
+}
+.counts .count p:nth-child(2){
+    letter-spacing: 2px;
+    color: rgba(255, 255, 255, 0.706);
+}

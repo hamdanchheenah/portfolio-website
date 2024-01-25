@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Koulen&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Koulen', sans-serif;
+}
+.container{
+    background-image: linear-gradient(135deg,#8F39CE,#064375);
+    width: 100%;
+    height: 100vh;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 60px;
+}
+.header img{
+width: 200px;
+}
+.header .links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header .links a{
+    margin: 0 60px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+.header .links a:hover{
+    color: #8F39CE;
+}
+.header .signup button{
+    position: relative;
+    background-color: #491b89;
+    color:#8F39CE ;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 50px;
+    padding: 7px 20px;
+    letter-spacing: 2px;
+    transition: all ease 0.3s;
+}
+.signup button:hover{
+    color: rgb(216, 211, 235);
+    transform: scale(1.1);
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(135deg,#053964,#7d1bc3);
+    width: 70%;
+    height: 75vh;
+    margin: 0 auto;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.644);
+    border-radius: 10px;
+}
+.left{
+    background-image: url(./assets/hummistan_sigma_man_doing_editing_in_the_room_hyper_realistic_c_6bac281c-9214-4c4f-bfab-7286b983b9e9.png);
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px ;
+    border-top-left-radius:10px ;
+    border-bottom-left-radius: 10px;
+
+}
+.left p{
+    color: rgba(255, 255, 255, 0.835);
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    font-family: "barlow";
+    text-transform: capitalize;
+}
+.left p span{
+    color: white;
+    font-size: 35px;
+    font-weight: 200;
+    letter-spacing: 5px;
+    text-transform: capitalize;
+}
+.left h6{
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    font-weight: 200;
+    margin-top: 500px;
+    letter-spacing: 5px;
+
+}
+.right{
+    width: 90%;
+    padding: 50px ;
+ 
+}
+.right h2{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 200;
+margin-bottom: 20px;
+}
+.right .data{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 2rem;
+}
+.right .data p{
+    color: white;
+    letter-spacing: 2px;
+margin-bottom: 40px;
+
+}
+.right .data input{
+    color: white;
+    letter-spacing: 2px;
+margin-bottom: 40px;
+background-color: transparent;
+border: 2px solid #;
+border-radius: 20px;
+padding:8px 20px;
+outline: none;
+}
+.right .buttons{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 2rem;
+}
+.right .btn{
+    background-color: #074f8a;
+    color: #7d1bc3;
+    padding: 8px 25px;
+    letter-spacing: 2px;
+    border: none;
+    transition: all ease 0.3s;
+}
+.right .btn:hover{
+    background-color: #8F39CE;
+    color: #074f8a;
+}
+.right .buttons :nth-child(2){
+    background-color: transparent;
+    border: 2px solid #065da3;
+    color:#065da3 ;
+}
+.right .buttons :nth-child(2):hover{
+  color: #8F39CE;
+  border: 2px solid #8F39CE;
+
+}
